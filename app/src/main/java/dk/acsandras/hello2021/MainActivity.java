@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Snackbar.make(view, "Resultatet er " + resultatInt + "!", Snackbar.LENGTH_LONG)
                .setAction("Action", null).show();
     }
-}
+
+    public void sigHejiLoggen(android.view.View view) {
+        Log.d("András", "Hej Log!");
+    }
+
+    }
